@@ -253,6 +253,173 @@ html, body {
     font-size: 0.85rem;
 }
 
+/* Testimonials section */
+.testimonials {
+    padding: 4rem 0;
+    background-color: var(--white);
+    text-align: center;
+}
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+.testimonial-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.testimonial-item {
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 6px;
+    max-width: 350px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.testimonial-item .quote {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+.testimonial-item .author {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Itineraries section */
+.itineraries {
+    padding: 4rem 0;
+    background-color: var(--light-bg);
+}
+.itineraries h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+.itinerary-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.itinerary {
+    background-color: var(--white);
+    padding: 1.5rem;
+    border-radius: 6px;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.itinerary h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+.itinerary ul {
+    padding-left: 1.2rem;
+    color: #555;
+}
+
+/* FAQ section */
+.faq {
+    padding: 4rem 0;
+    background-color: var(--white);
+}
+.faq h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+.faq-item h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+.faq-item p {
+    margin: 0;
+    color: #555;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 4rem 0;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+}
+.contact-section h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+.contact-section p {
+    margin-bottom: 2rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+}
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+.contact-form button {
+    padding: 0.7rem 1.5rem;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+    background-color: #c49d0f;
+}
+
+/* Sign‑up section */
+.signup-section {
+    padding: 4rem 0;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+}
+.signup-section h2 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.signup-section p {
+    margin-bottom: 2rem;
+}
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2rem;

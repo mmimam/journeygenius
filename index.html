@@ -22,6 +22,11 @@
                 <ul>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#itineraries">Itineraries</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#signup">Sign&nbsp;Up</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -82,9 +87,89 @@
         </div>
     </section>
 
-    <!-- Contact / Call to action section -->
-    <section id="contact" class="contact">
+    <!-- Testimonials section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What travellers say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p class="quote">“JourneyGenius planned a trip through Italy that felt like it was designed just for me. From hidden gelato spots to a private tour of an architecture studio, every detail was perfect.”</p>
+                    <p class="author">— Amina K., Rome adventure</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="quote">“I usually dread planning family vacations. With JourneyGenius, we just told it we love history and beaches and the AI did the rest. The kids are still talking about the castle scavenger hunt!”</p>
+                    <p class="author">— Sarah L., Spain getaway</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="quote">“I travel for work and leisure. JourneyGenius understood my need for efficient itineraries during conferences and relaxing cultural experiences afterwards. It feels like having a personal travel concierge.”</p>
+                    <p class="author">— Naveed Q., frequent flyer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample itineraries section -->
+    <section id="itineraries" class="itineraries">
+        <div class="container">
+            <h2>Sample itineraries</h2>
+            <p class="section-intro">Here are a few examples of how our AI crafts a day by blending your interests with local culture.</p>
+            <div class="itinerary-list">
+                <div class="itinerary">
+                    <h3>Cultural day in Kyoto</h3>
+                    <ul>
+                        <li>Morning: Private tea ceremony in a historic machiya townhouse.</li>
+                        <li>Midday: Guided walk through bamboo forests and a visit to Fushimi Inari shrine.</li>
+                        <li>Evening: Reservation at a family‑run kaiseki restaurant for a seasonal tasting menu.</li>
+                    </ul>
+                </div>
+                <div class="itinerary">
+                    <h3>Street food crawl in Mexico City</h3>
+                    <ul>
+                        <li>Breakfast: Chilaquiles and café de olla at a neighborhood market.</li>
+                        <li>Afternoon: Explore murals in La Roma before meeting your culinary guide.</li>
+                        <li>Night: Visit three taquerías, finish with churros and hot chocolate in Coyoacán.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How does JourneyGenius personalize my trip?</h3>
+                <p>We combine your stated preferences with your travel history (if provided) and real‑time data to suggest activities and routes that align with your interests and pace. The more you use JourneyGenius, the smarter it becomes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I make changes to the itinerary?</h3>
+                <p>Absolutely. Plans change—we adapt. You can tweak activities, adjust timing or swap recommendations. The AI will reoptimize your route and bookings in seconds.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do I have to pay to try JourneyGenius?</h3>
+                <p>Early access to the platform is free. Once we launch publicly, we’ll offer tiered plans, including a generous free tier for casual travellers and premium features for power users.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section">
         <div class="container contact-content">
+            <h2>Get in touch</h2>
+            <p>Have questions, feedback, or partnership ideas? Send us a message and we’ll reply shortly.</p>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks for reaching out! We’ll respond soon.');">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+                <button type="submit">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sign‑up / Call to action section -->
+    <section id="signup" class="signup-section">
+        <div class="container signup-content">
             <h2>Ready to travel smarter?</h2>
             <p>Sign up to get early access and be the first to experience hyper‑personalized travel planning.</p>
             <form class="signup-form" onsubmit="event.preventDefault(); alert('Thank you! We will be in touch soon.');">
